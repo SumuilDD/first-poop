@@ -1,55 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="ua">
     <head>
         <title> anime system </title>
+        <link rel="stylesheet" href="stulik.css">
     </head>
 
     <body>
         <header>
-            <h1 
-            style="text-align: center;">
+            <h1>
             STATUS
             </h1>
         </header>
 
         <section>
-            <div style="display: flex; align-items: center;">
-                <img 
-                src="./фото/profile.jpg" alt="Моє фото"
-                height="80 px">
+            <div class="idname">
+                <img class="foto" src="./фото/profile.jpg" alt="Моє фото">
                 
-                <p style="margin-left: 20px;">
-                Делеске Святослав
+                <p class="name">
+                Клейн Моретті
                 </p>
-                <p style="margin-left: 20px;">
+                <p class="clas">
                 Клас:
                 </p>
-                <p>ДОВБОЯЩЕР</p>
+                <p class="work">ДОВБОЯЩЕР</p>
+                <p class="level">LV:</p> <p class="numlv">1</p> 
+                <p class="level">XP:</p> <p class="numlv">0/100</p> 
             </div>
-           
-            <div 
-            style="margin: 20px; padding: 10px; "
-            >
-            <div style="display: flex; align-items: center;">
-                <p> Сила:  </p>    <p> 5</p> 
-                <p style="margin-left: 20px;"> Витривалість: </p> <p>4</p>
-            </div>
-
-            <div style="display: flex; align-items: center;">
-            <p> Дух: </p> <p>8</p>
-            <p style="margin-left: 20px;"> Інтелект: </p>  <p>0.00001</p>
-            </div>
+           <div class="conteirs">
+                <div class="stats">
+                    <h3>ХАРАКТЕРИСТИКИ</h3> 
+                    <div class="stat-pair">
+                        <p class="rightstat"> Сила:  </p>    <p class="values"> 5</p>
+                        <p class="leftstat"> Витривалість: </p> <p class="values">4</p>
+                    </div>
+                    <div class="stat-pair">    
+                        <p class="rightstat"> Дух: </p> <p class="values">8</p>
+                        <p class="leftstat"> Інтелект: </p>  <p class="values">0.00001</p>
+                    </div>
+                </div>
              
+
+                <div class="stats">
+                    <h3>НАВИЧКИ</h3> 
+                    <div class="stat-pair">
+                        <p class="navuk">HTML</p>
+                        <p class="opus">(LV:2) Вчусь робити HTML но получається діч</p>
+                    </div>
+                    <div class="stat-pair">
+                        <p class="navuk">CSS</p>
+                        <p class="opus">(LV:2) Вчусь робити CSS но бля хуйня якась</p>
+                    </div>
+                </div>
             </div>
         </section>    
             <a 
+            class="posul"
             href="./test 2.html" 
             target="_blank" 
-            style="display: block; width: 200px; margin: 0 auto; text-align: center;"
             > Сторінка з посиланнями</a>
 
     <footer>
-        <p style="text-align: center;">© 2025 Святослав</p>
+        <p class="dog">© 2025 Святослав</p>
     </footer>
     </body>
 </html>

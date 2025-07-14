@@ -1,0 +1,161 @@
+/* 🌌 Загальні налаштування */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* 🧢 Заголовок */
+header {
+  background-color: #7ebeffff;
+  padding: 25px;
+ 
+}
+
+h1 {
+    text-align: center;/*Сторона розміщення в хіт боксі*/
+    color: white;/*колір обєкта*/
+    background-color: #3700ff42;/* КОЛІР ХІТ БОКСУ*/
+    margin: 0;
+    font-size: 40px;/* РОЗМІР ШРИФТА*/
+    letter-spacing: 10px;/* ВІДСТАНЬ МІЖ ЛІТЕРАМИ */
+}
+.idname{
+    
+    display: flex;
+    flex-direction: row;
+   
+}
+.level {
+    margin: 30px 0px 30px 30px;
+    text-align: right;
+    font-size: 22px;
+    color: #666; 
+}
+.numlv{
+    margin: 30px 0px 30px 5px;
+    font-size: 22px;
+    color: crimson;
+    
+}
+/* 📷 Фото профілю */
+.foto {
+  width: 80px;/*Ширина обєкта*/
+  border-radius: 10px;/*радіус закруглення країв*/
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);/*тінь на фоні обєкта*/
+  display: block;/*Надає властивості блочних обєктів*/
+  margin: 10px 25px 40px 10px;
+}
+
+/* 👤 Інформація про особу */
+.name {
+    margin: 30px 40px 30px 0px;
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.clas {
+    margin: 30px 0px 30px 0px;
+    text-align: right;
+    font-size: 22px;
+    color: #666;
+}
+
+.work {
+    margin: 30px 0px 30px 10px;
+    text-align: center;
+    font-size: 22px;
+    color: crimson;
+    font-style: italic;
+}
+
+/* 💪 Статистика */
+section {
+    padding: 30px;
+}
+.stat-pair {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.conteirs{
+    display: flex;
+    flex-direction: row;    /* розміщення по горизонталі */
+    gap: 30px;              /* відстань між контейнерами */
+    justify-content: center; /* центрувати по горизонталі */
+}
+.stats {
+    margin-left: 95px;
+    width: 300px;
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 25px;/* відступ верх-низ, право-ліво*/
+    box-shadow: 0 0 10px rgba(79, 77, 77, 0.1);
+    
+}
+h3 {
+    border-radius: 10px;/*радіус закруглення країв*/
+    background-color: #3700ff42;/* КОЛІР ХІТ БОКСУ*/
+    margin: 0;
+    text-align: center;
+}
+.rightstat {
+    width: 43px;
+    color: darkblue;
+    font-weight: bold;          /* Жирний текст для назви */
+    text-align: left;          /* Вирівнюємо назву праворуч */
+}
+
+.leftstat {
+   padding-left: 70px;
+    color: darkblue;
+    font-weight: bold;          /* Жирний текст для назви */
+    text-align: left;          /* Вирівнюємо назву праворуч */color: darkgreen;
+ 
+}
+
+.values {
+    
+    color: #b30000;
+    width: 60px;                /* Фіксована ширина значення */
+    text-align: left;           /* Вирівнюємо значення ліворуч */
+    
+}
+
+/* 🔗 Посилання */
+.posul {
+  display: block;                /* Робить посилання блочним елементом, щоб можна було задавати ширину, margin тощо */
+  text-align: center;            /* Вирівнює текст всередині посилання по центру */
+  margin: 30px auto;             /* Встановлює зовнішній відступ 30px зверху і знизу, а також автоматично центрує по горизонталі */
+  width: fit-content;            /* Ширина елемента підлаштовується під його вміст */
+  padding: 10px 20px;            /* Внутрішній відступ: 10px зверху і знизу, 20px зліва і справа */
+  background-color: #3498db;     /* Колір фону кнопки (блакитний) */
+  color: white;                  /* Колір тексту (білий) */
+  text-decoration: none;         /* Забирає підкреслення у посилання */
+  border-radius: 10px;           /* Закруглює кути посилання (робить "кнопкою") */
+  transition: background 0.3s;   /* Плавна анімація зміни фону при наведенні (0.3 секунди) */
+}
+
+.posul:hover {
+  background-color: #2980b9;
+}
+
+/* ⚓ Футер */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.dog {
+  margin: 0;
+  font-size: 18px;
+}
