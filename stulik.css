@@ -42,7 +42,9 @@ h1 {
     box-shadow: 2px 2px 10px rgba(92, 40, 236, 0.2);
     margin: 30px 10px 20px 10px;  /* зовнішній відступ */
     padding: 20px 20px 20px 20px; /* внутрішній відступ */
-}.stovp{
+}
+
+.stovp{
     text-align: center;
     text-transform: uppercase;/*Всі букви з великої*/
     font-weight: bold;
@@ -57,34 +59,39 @@ h1 {
     font-size: 16px;
     
 }
+
 .rofl {
     cursor: pointer;        /* змінює вигляд курсору */
     transition: all 0.3s;   /* плавний ефект */
     opacity: 0.8;           /* прозорість */
     visibility: visible;    /* видно або сховано */
 }
+
 .icon {
     justify-self: start;
     max-height: 70px;
     min-height: 70px;
 }
+
 .icon2 {
     justify-self: end;
     max-height: 70px;
     min-height: 70px;
 }
+
 .zaholovok{
     
     gap: 3px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; /* Перша колонка займає 1 частину, друга — 2 */
 }
+
 .new{
     
     width: 100%;
-    
     overflow: hiden;
 }
+
 .cards  {
 
     display: grid;
@@ -181,7 +188,7 @@ h1 {
     border-radius: 8px;       /* Округлені кути — радіус 8 пікселів */
     font-size: 18px;          /* Розмір шрифту — 18 пікселів */
     font-weight: bold;        /* Жирний текст */
-    margin: 16px;         /* Зовнішній відступ зверху — 16 пікселів */
+    margin: 16px;          /* Зовнішній відступ зверху — 16 пікселів */
     cursor: pointer;          /* Курсор миші змінюється на "руку", як у кнопки */
     
 }
